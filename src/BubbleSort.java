@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 /**
  * 冒泡算法
+ * 时间复杂度 n(n+1)/2 = O(n^2)
  */
 public class BubbleSort {
 
