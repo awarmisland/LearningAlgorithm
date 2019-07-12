@@ -4,7 +4,7 @@ import java.util.Arrays;
  * 选择性排序
  * 时间复杂度 n(n+1)/2 =O(n^2）
  */
-public class SelectiveSorting {
+public class SelectiveSort {
 
     public static void main(String[] args) {
         int[] arr = {3,1,4,23,9,0,12,29,5,2,6,8,14};
@@ -23,6 +23,6 @@ public class SelectiveSorting {
             arr[i] = tmp;
         }
 
-        System.out.println("SelectiveSorting："+Arrays.toString(arr));
+        System.out.println("SelectiveSort："+Arrays.toString(arr));
     }
 }
